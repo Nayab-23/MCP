@@ -1,3 +1,5 @@
+## The following sets up an MCP server using a tool called FastMCP.
+
 from mcp.server.fastmcp import FastMCP     ## Import FastMCP class to build the server
 
 mcp = FastMCP("Weather Service")           ## Create a FastMCP server instance with the name "Weather Service"
